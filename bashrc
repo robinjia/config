@@ -10,12 +10,12 @@ function parse_git_branch () {
 }
 PS1="\u@\h:\w\$(parse_git_branch)\$ "
 
-# Set PATH
-# export PATH=$PATH:/usr/local/MATLAB/R2013b_Linux/bin
-
 # RVM
 source ~/.rvm/scripts/rvm
 
 # cd to previous working directory when opening new tab in Terminal
 # For Ubuntu 14.04.
 . /etc/profile.d/vte.sh
+
+# Add config/matlab to Matlab path, for startup.m
+export MATLABPATH=/home/robinjia/config/matlab
