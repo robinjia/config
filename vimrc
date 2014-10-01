@@ -18,6 +18,10 @@ syntax on  "Syntax highlighting
 colorscheme default
 filetype indent plugin on  "Automatic indentation based on .vim/indent
 
+"Status line
+set laststatus=2  "Always show status bar
+set ruler
+
 "Flex coloring
 au BufEnter *.flex set syntax=c
 
