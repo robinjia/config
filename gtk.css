@@ -1,3 +1,6 @@
 TerminalWindow .notebook tab:active {
-    background-color: #99FF99;
+    /* background-color: #99FF99; */
+    background-image: -gtk-gradient (linear, left 0.8, left bottom,
+                                     from (#99FF99),
+                                     to (@bg_color)); 
 }
