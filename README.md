@@ -24,3 +24,14 @@ echo "source /home/$USER/config/bashrc" >> ~/.bashrc
 
 == gtk.css
 gtk.css should be symlinked in ~/.config/gtk-3.0/gtk.css
+
+= Other configurations
+
+== --touch-devices on Chrome
+To get scrolling to work on Chrome, edit /usr/share/applications/google-chrome.desktop,
+changing all lines with "Exec" to include the flag --touch-devices=9.
+
+The number 9 comes from running xinput and locating
+"SYNAPTICS Synaptics Large Touch Screen".
+
+Beware: this may have to be redone every time there is a chrome update.
