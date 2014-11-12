@@ -2,6 +2,7 @@
 # Custom Additions to .bashrc
 ################################################################################
 set -o vi
+export EDITOR=/usr/bin/vim
 alias ls='ls --color'
 
 # Display git branch in terminal
@@ -19,3 +20,10 @@ source ~/.rvm/scripts/rvm
 
 # Add config/matlab to Matlab path, for startup.m
 export MATLABPATH=/home/robinjia/config/matlab
+
+# Silly things to make git more fun
+alias such=git
+alias very=git
+alias much=git
+alias so=git
+alias wow='git status'
