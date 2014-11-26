@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/robinjia/Documents/misc/nfl-pool/build/testdata'
-let g:netrw_dirhist_2='/usr/share/themes/Ambiance/gtk-3.0'
-let g:netrw_dirhist_3='/home/robinjia/config'
-let g:netrw_dirhist_4='/home/robinjia/misc/smt-registration/app/assets'
-let g:netrw_dirhist_5='/home/robinjia/research/dror/data/EGFR_Her3_tracking_data/D/nrg_011/green'
-let g:netrw_dirhist_6='/home/robinjia/misc/nfl-pool/src/py'
