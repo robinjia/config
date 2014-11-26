@@ -27,3 +27,6 @@ alias very=git
 alias much=git
 alias so=git
 alias wow='git status'
+
+# Updates to PATH
+PATH=/home/robinjia/bin:$PATH
