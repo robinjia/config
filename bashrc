@@ -11,22 +11,11 @@ function parse_git_branch () {
 }
 PS1="\u@\h:\w\$(parse_git_branch)\$ "
 
-# RVM
-source ~/.rvm/scripts/rvm
-
-# cd to previous working directory when opening new tab in Terminal
-# For Ubuntu 14.04.
-. /etc/profile.d/vte.sh
-
 # Add config/matlab to Matlab path, for startup.m
-export MATLABPATH=/home/robinjia/config/matlab
+export MATLABPATH=/home/robinjia/config/matlab:$MATLABPATH
 
-# Silly things to make git more fun
-alias such=git
-alias very=git
-alias much=git
-alias so=git
-alias wow='git status'
-
-# Updates to PATH
-PATH=/home/robinjia/bin:$PATH
+# Source local bashrc changes
+if [ -f ~/config/bashrc.local ]
+then
+  source ~/config/bashrc.local
+fi

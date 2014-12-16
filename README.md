@@ -22,6 +22,10 @@ approach is to source config/bashrc in .bashrc, e.g.
 echo "source /home/$USER/config/bashrc" >> ~/.bashrc
 ```
 
+Additionally, for local machine-specific configurations to the .bashrc, you can
+create a file config/bashrc.local that is not tracked by Git, and is sourced by
+config/bashrc when present.
+
 == gtk.css
 gtk.css should be symlinked in ~/.config/gtk-3.0/gtk.css
 
