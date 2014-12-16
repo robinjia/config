@@ -20,5 +20,12 @@ then
   source ~/config/bashrc.local
 fi
 
+# Check if a bin/ directory exists in home directory, add to PATH.
+if [ -d ~/bin ]
+then
+  echo "Hi"
+  PATH=~/bin:$PATH
+fi
+
 # Check disk usage of current directory, max depth 1
 alias du1='du -h --max-depth=1 .'
