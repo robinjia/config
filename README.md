@@ -1,10 +1,10 @@
-= Description
+# Description
 These are configuration files that are normally hidden in the home directory.
 
 I've moved these to a dedicated directory so that they can be backed up and
 thrown into a repo.
 
-= Usage
+# Usage
 For most files, you'll want to create a soft-link in the home directory, e.g.
 
 ```
@@ -14,7 +14,7 @@ ln -s config/vimrc .vimrc
 
 There are also a few special cases
 
-== bashrc
+## bashrc
 Since /home/$USER/.bashrc may come with some nice defaults, the recommended
 approach is to source config/bashrc in .bashrc, e.g.
 
@@ -26,12 +26,12 @@ Additionally, for local machine-specific configurations to the .bashrc, you can
 create a file config/bashrc.local that is not tracked by Git, and is sourced by
 config/bashrc when present.
 
-== gtk.css
+## gtk.css
 gtk.css should be symlinked in ~/.config/gtk-3.0/gtk.css
 
-= Other configurations
+# Other configurations
 
-== --touch-devices on Chrome
+## --touch-devices on Chrome
 To get scrolling to work on Chrome, edit /usr/share/applications/google-chrome.desktop,
 changing all lines with "Exec" to include the flag --touch-devices=9.
 
