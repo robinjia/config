@@ -19,3 +19,6 @@ if [ -f ~/config/bashrc.local ]
 then
   source ~/config/bashrc.local
 fi
+
+# Check disk usage of current directory, max depth 1
+alias du1='du -h --max-depth=1 .'
