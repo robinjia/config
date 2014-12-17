@@ -14,12 +14,6 @@ PS1="\u@\h:\w\$(parse_git_branch)\$ "
 # Add config/matlab to Matlab path, for startup.m
 export MATLABPATH=/home/robinjia/config/matlab:$MATLABPATH
 
-# Source local bashrc changes
-if [ -f ~/config/bashrc.local ]
-then
-  source ~/config/bashrc.local
-fi
-
 # Check if a bin/ directory exists in home directory, add to PATH.
 if [ -d ~/bin ]
 then
@@ -28,3 +22,10 @@ fi
 
 # Check disk usage of current directory, max depth 1
 alias du1='du -h --max-depth=1 .'
+
+# Source local bashrc changes
+if [ -f ~/config/bashrc.local ]
+then
+  source ~/config/bashrc.local
+fi
+
