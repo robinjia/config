@@ -23,7 +23,6 @@ fi
 # Check if a bin/ directory exists in home directory, add to PATH.
 if [ -d ~/bin ]
 then
-  echo "Hi"
   PATH=~/bin:$PATH
 fi
 
