@@ -23,6 +23,9 @@ fi
 # Check disk usage of current directory, max depth 1
 alias du1='du -h --max-depth=1 .'
 
+# Aliases related to PBS/qsub
+alias qst='qstat -u robinjia'
+
 # Source local bashrc changes
 if [ -f ~/config/bashrc.local ]
 then
