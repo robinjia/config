@@ -39,3 +39,10 @@ The number 9 comes from running xinput and locating
 "SYNAPTICS Synaptics Large Touch Screen".
 
 Beware: this may have to be redone every time there is a chrome update.
+
+## Screen plugin in vim
+To install the screen plugin in vim, install from the .vba:
+```
+wget http://www.vim.org/scripts/download_script.php?src_id=16100 -O screen.vba
+vi screen.vba  # Install using :so %
+```
