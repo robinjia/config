@@ -1,2 +1,12 @@
 vim/.netrwhist
 bashrc.local
+
+# Install screen via screen.vba
+vim/.VimballRecord
+vim/autoload/screen.vim
+vim/doc/screen.txt
+vim/doc/tags
+vim/plugin/screen.vim
+
+# Swap files
+*.swp
