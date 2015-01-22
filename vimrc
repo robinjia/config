@@ -27,3 +27,6 @@ au BufEnter *.flex set syntax=c
 
 "Tex spelling
 au BufEnter *.tex set spell spelllang=en_us 
+
+"Coloring for logical forms
+au BufEnter *.lf set syntax=python
