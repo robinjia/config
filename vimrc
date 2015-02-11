@@ -28,5 +28,8 @@ au BufEnter *.flex set syntax=c
 "Tex spelling
 au BufEnter *.tex set spell spelllang=en_us 
 
-"Coloring for logical forms
+"[research/pliang] Coloring for logical forms, knowledge graphs
 au BufEnter *.lf set syntax=python
+au BufEnter *.graph
+      \set syntax=lisp |
+      \set autoindent
