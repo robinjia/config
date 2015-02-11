@@ -31,5 +31,5 @@ au BufEnter *.tex set spell spelllang=en_us
 "[research/pliang] Coloring for logical forms, knowledge graphs
 au BufEnter *.lf set syntax=python
 au BufEnter *.graph
-      \set syntax=lisp |
-      \set autoindent
+      \ set syntax=lisp |
+      \ set autoindent
