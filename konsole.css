@@ -1,10 +1,19 @@
 QTabBar::tab:selected, QTabBar::tab:hover {
   background: #99FF99;
-}
-QTabBar::tab:selected {
-  border: 2px solid; 
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  border-color: #33FF33;
-  /* border-bottom-color: #C2C7CB; */ /* same as pane color */
+  border-color: #00AA00;
+  border-bottom-color: #99FF99;
+}
+
+QTabBar::tab {
+  background: #C2C7CB;
+  border: 1px solid;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-color: #666666;
+  border-bottom-color: #C2C7CB;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 12pt;
 }
