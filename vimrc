@@ -27,3 +27,6 @@ au BufEnter *.flex set syntax=c
 
 "Tex spelling
 au BufEnter *.tex set spell spelllang=en_us 
+
+"DeepDive application.conf
+au BufEnter application.conf set syntax=sh
