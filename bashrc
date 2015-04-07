@@ -21,7 +21,7 @@ then
 fi
 
 # Check disk usage of current directory, max depth 1
-alias du1='du -h --max-depth=1 .'
+alias du1='du -h --max-depth=1 . | sort -k1h'
 
 # Aliases related to PBS/qsub
 alias qst='qstat -u robinjia'
