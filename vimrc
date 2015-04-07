@@ -33,3 +33,7 @@ au BufEnter *.lf set syntax=python
 au BufEnter *.graph
       \ set syntax=lisp |
       \ set autoindent
+"
+"DeepDive application.conf
+au BufEnter application.conf set syntax=sh
+
