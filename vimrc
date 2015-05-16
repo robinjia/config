@@ -16,6 +16,7 @@ set hls  "Highlight search on
 set number  "Line numbers on
 syntax on  "Syntax highlighting
 colorscheme default
+set background=light
 filetype indent plugin on  "Automatic indentation based on .vim/indent
 
 "Status line
