@@ -17,6 +17,7 @@ set number  "Line numbers on
 syntax on  "Syntax highlighting
 colorscheme default
 set background=light
+filetype plugin on
 filetype indent plugin on  "Automatic indentation based on .vim/indent
 
 "Status line
@@ -28,6 +29,9 @@ au BufEnter *.flex set syntax=c
 
 "Tex spelling
 au BufEnter *.tex set spell spelllang=en_us 
+
+"Jemdoc
+au BufEnter *.jemdoc setf jemdoc
 
 "[research/pliang] Coloring for logical forms, knowledge graphs
 au BufEnter *.lf set syntax=python
