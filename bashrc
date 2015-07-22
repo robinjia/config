@@ -4,6 +4,7 @@
 set -o vi
 export EDITOR=/usr/bin/vim
 alias ls='ls --color'
+alias grep='grep --color=auto'
 
 # Display git branch in terminal
 function parse_git_branch () {
