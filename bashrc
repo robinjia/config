@@ -3,7 +3,7 @@
 ################################################################################
 set -o vi
 export EDITOR=/usr/bin/vim
-alias ls='ls --color'
+alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 # Display git branch in terminal
