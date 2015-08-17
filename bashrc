@@ -21,6 +21,9 @@ then
   PATH=~/bin:$PATH
 fi
 
+# Add the config/bin directory to PATh
+PATH=~/config/bin:$PATH
+
 # Check disk usage of current directory, max depth 1
 alias du1='du -h --max-depth=1 . | sort -k1h'
 

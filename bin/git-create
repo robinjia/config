@@ -1,0 +1,19 @@
+#!/bin/bash
+# Creates a git repo, initializes with some basic templates.
+if [ -z $1 ]
+then
+  echo "Usage: $0 dirname"
+  exit 1
+fi
+git init $1
+cd $1
+
+# Copy default gitignore and REAMDE.md
+cp ~/config/defaults/gitignore .gitignore
+cp ~/config/defaults/README.md README.md
+git add .gitignore
+git add README.md
+git commit -m 'Initial commit: basic template.'
+
+# Return to original directory
+cd -
