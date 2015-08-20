@@ -34,11 +34,14 @@ au BufEnter *.tex set spell spelllang=en_us
 au BufEnter *.jemdoc setf jemdoc
 
 "[research/pliang] Coloring for logical forms, knowledge graphs
-au BufEnter *.lf set syntax=python
-au BufEnter *.graph
-      \ set syntax=lisp |
+au BufEnter *.examples set filetype=percylisp
+au BufEnter *.grammar 
+      \ set filetype=percylisp |
       \ set autoindent
-"
-"DeepDive application.conf
-au BufEnter application.conf set syntax=sh
+au BufEnter *.graph set filetype=percylisp
+au BufEnter *.lf set syntax=python
 
+"[research/chrismre] DeepDive application.conf
+au BufEnter application.conf 
+      \ set syntax=sh |
+      \ set autoindent
