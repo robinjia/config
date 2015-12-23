@@ -19,6 +19,7 @@ colorscheme default
 set background=light
 filetype plugin on
 filetype indent plugin on  "Automatic indentation based on .vim/indent
+set noesckeys  "Fixes pause after ESC+O
 
 "Status line
 set laststatus=2  "Always show status bar
@@ -32,6 +33,11 @@ au BufEnter *.tex set spell spelllang=en_us
 
 "Jemdoc
 au BufEnter *.jemdoc setf jemdoc
+
+"Scala
+au BufEnter *.scala 
+      \ set syntax=scala |
+      \ set autoindent
 
 "[research/pliang] Coloring for logical forms, knowledge graphs
 au BufEnter *.examples set filetype=percylisp
