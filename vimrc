@@ -35,7 +35,9 @@ au BufEnter *.flex set syntax=c
 au BufEnter *.jemdoc setf jemdoc
 
 "Scala
-au BufEnter *.scala set syntax=scala
+au BufEnter *.scala 
+      \ set syntax=scala |
+      \ set autoindent
 
 "[research/pliang] Coloring for logical forms, knowledge graphs
 au BufEnter *.examples set filetype=percylisp
