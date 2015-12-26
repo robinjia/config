@@ -29,7 +29,7 @@ set ruler
 au BufEnter *.flex set syntax=c
 
 "Tex spelling
-au BufEnter *.tex set spell spelllang=en_us 
+"au BufEnter *.tex set spell spelllang=en_us 
 
 "Jemdoc
 au BufEnter *.jemdoc setf jemdoc
