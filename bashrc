@@ -28,7 +28,8 @@ PATH=~/config/bin:$PATH
 alias du1='du -h --max-depth=1 . | sort -k1h'
 
 # Aliases related to PBS/qsub
-alias qst='qstat -u robinjia'
+alias qst='qstat -u $USER'
+alias qdelall='qstat -u $USER | grep "$USER" | cut -d "." -f1 | xargs qdel'
 
 # Aliases related to codalab
 function clw () {

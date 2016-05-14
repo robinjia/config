@@ -8,5 +8,22 @@ vim/doc/screen.txt
 vim/doc/tags
 vim/plugin/screen.vim
 
+# Install julia vim files via git
+julia-vim/
+vim/autoload/generate_latex_symbols_table.jl
+vim/autoload/julia_blocks.vim
+vim/autoload/julia_latex_symbols.vim
+vim/autoload/julia.vim
+vim/autoload/LaTeXtoUnicode.vim
+vim/doc/generate_latex_symbols_table.jl
+vim/doc/julia-vim-L2U-table.txt
+vim/doc/julia-vim-L2U.txt
+vim/doc/julia-vim.txt
+vim/ftdetect/julia.vim
+vim/ftplugin/julia.vim
+vim/indent/julia.vim
+vim/syntax/julia.vim
+
+
 # Swap files
 *.swp
