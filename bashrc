@@ -36,6 +36,9 @@ function clw () {
   cl work "$ws"
 }
 
+# Theano
+export OMP_NUM_THREADS=2
+
 # Source local bashrc changes
 if [ -f ~/config/bashrc.local ]
 then
