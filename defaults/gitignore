@@ -3,8 +3,10 @@
 *.o
 *.pyc
 
-# LaTeX
+# LaTeX/BibTex
 *.aux
+*.bbl
+*.blg
 *.log
 *.out
 *.pdf
