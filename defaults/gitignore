@@ -15,3 +15,7 @@
 # Temporary files
 tmp*
 *.tmp
+
+# Zip files
+*.gz
+*.zip
