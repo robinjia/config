@@ -40,6 +40,6 @@ vi screen.vba  # Install using :so %
 
 ## KDE Simple Locker Background
 To edit the simple locker background, first edit
-`/usr/share/kde4/apps/ksmserver/screenlocker/org.kde.passworddialog/contents/ui`
+`/usr/share/kde4/apps/ksmserver/screenlocker/org.kde.passworddialog/contents/ui/main.qml`
 as seen [here](https://www.maketecheasier.com/customize-kde-lock-screen/).
 Then, add a symlink to the desired background picture.
