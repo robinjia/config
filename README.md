@@ -37,3 +37,9 @@ To install the screen plugin in vim, install from the .vba:
 wget http://www.vim.org/scripts/download_script.php?src_id=16100 -O screen.vba
 vi screen.vba  # Install using :so %
 ```
+
+## KDE Simple Locker Background
+To edit the simple locker background, first edit
+`/usr/share/kde4/apps/ksmserver/screenlocker/org.kde.passworddialog/contents/ui`
+as seen [here](https://www.maketecheasier.com/customize-kde-lock-screen/).
+Then, add a symlink to the desired background picture.
