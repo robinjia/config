@@ -15,14 +15,20 @@ PS1="\u@\h:\w\$(parse_git_branch)\$ "
 # Add config/matlab to Matlab path, for startup.m
 export MATLABPATH=/home/robinjia/config/matlab:$MATLABPATH
 
-# Check if a bin/ directory exists in home directory, add to PATH.
-if [ -d ~/bin ]
+# Check if a local/bin/ directory exists in home directory, add to $PATH.
+if [ -d ~/local/bin ]
 then
   PATH=~/bin:$PATH
 fi
 
 # Add the config/bin directory to PATH
 PATH=~/config/bin:$PATH
+
+# Check if a local/py directory exists in home directory, add to $PYTHONPATH
+if [ -d ~/local/py ]
+then
+  PYTHONPATH=~/local/py:$PYTHONPATH
+fi
 
 # Check disk usage of current directory, max depth 1
 alias du1='du -h --max-depth=1 . | sort -k1h'
