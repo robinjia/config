@@ -1,6 +1,8 @@
 vim/.netrwhist
 bashrc.local
 
+background.jpg
+
 # Install screen via screen.vba
 vim/.VimballRecord
 vim/autoload/screen.vim
@@ -23,7 +25,6 @@ vim/ftdetect/julia.vim
 vim/ftplugin/julia.vim
 vim/indent/julia.vim
 vim/syntax/julia.vim
-
 
 # Swap files
 *.swp
