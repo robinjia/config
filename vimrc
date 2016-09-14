@@ -32,6 +32,9 @@ au BufEnter *.flex set syntax=c
 au BufEnter *.tex set syntax=tex
 "     \ set spell spelllang=en_us 
 
+"Markdown
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+
 "Jemdoc
 au BufEnter *.jemdoc setf jemdoc
 
