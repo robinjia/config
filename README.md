@@ -38,8 +38,7 @@ wget http://www.vim.org/scripts/download_script.php?src_id=16100 -O screen.vba
 vi screen.vba  # Install using :so %
 ```
 
-## KDE Simple Locker Background
-To edit the simple locker background, first edit
-`/usr/share/kde4/apps/ksmserver/screenlocker/org.kde.passworddialog/contents/ui/main.qml`
-as seen [here](https://www.maketecheasier.com/customize-kde-lock-screen/).
-Then, add a symlink to the desired background picture.
+## KDE SDDM Background
+The login background is at
+`/usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/artwork/background.png`,
+You can have it be a symlink to somewhere else.
