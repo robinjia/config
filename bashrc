@@ -22,12 +22,12 @@ then
 fi
 
 # Add the config/bin directory to PATH
-PATH=~/config/bin:$PATH
+export PATH=~/config/bin:$PATH
 
 # Check if a local/py directory exists in home directory, add to $PYTHONPATH
 if [ -d ~/local/py ]
 then
-  PYTHONPATH=~/local/py:$PYTHONPATH
+  export PYTHONPATH=~/local/py
 fi
 
 # Check disk usage of current directory, max depth 1
