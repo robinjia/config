@@ -27,7 +27,7 @@ export PATH=~/config/bin:$PATH
 # Check if a local/py directory exists in home directory, add to $PYTHONPATH
 if [ -d ~/local/py ]
 then
-  export PYTHONPATH=~/local/py
+  export PYTHONPATH=$PYTHONPATH:~/local/py
 fi
 
 # Check disk usage of current directory, max depth 1

@@ -25,6 +25,9 @@ set noesckeys  "Fixes pause after ESC+O
 set laststatus=2  "Always show status bar
 set ruler
 
+"Python skeleton
+au BufNewFile *.py 0r ~/.vim/skeleton.py
+
 "Flex coloring
 au BufEnter *.flex set syntax=c
 
