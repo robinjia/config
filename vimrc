@@ -25,12 +25,18 @@ set noesckeys  "Fixes pause after ESC+O
 set laststatus=2  "Always show status bar
 set ruler
 
+"Python skeleton
+au BufNewFile *.py 0r ~/.vim/skeleton.py
+
 "Flex coloring
 au BufEnter *.flex set syntax=c
 
 "Tex spelling
 au BufEnter *.tex set syntax=tex
 "     \ set spell spelllang=en_us 
+
+"Markdown
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 
 "Jemdoc
 au BufEnter *.jemdoc setf jemdoc
