@@ -40,6 +40,9 @@ au BufEnter *.scala
       \ set syntax=scala |
       \ set autoindent
 
+"HTML template files
+au BufEnter *.tpl set autoindent
+
 "[research/pliang] Coloring for logical forms, knowledge graphs
 au BufEnter *.examples set filetype=percylisp
 au BufEnter *.grammar 
