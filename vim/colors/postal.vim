@@ -2,6 +2,8 @@
 " Author: Gerardo Galindez <gerardo.galindez@gmail.com>
 " Maintainer: Gerardo Galindez <gerardo.galindez@gmail.com>
 " Notes: To check the meaning of the highlight groups, :help 'highlight'
+" Tip: See http://www.calmar.ws/vim/256-xterm-24bit-rgb-color-chart.html 
+"      for color codes
 
 " --------------------------------
 set background=dark
@@ -25,10 +27,10 @@ let g:colors_name="postal"
 " --------------------------------
 " Editor settings
 " --------------------------------
-hi Normal          ctermfg=15      ctermbg=0       cterm=none
+hi Normal          ctermfg=255     ctermbg=16      cterm=none
 hi Cursor          ctermfg=none    ctermbg=none    cterm=none
 hi CursorLine      ctermfg=none    ctermbg=none    cterm=none
-hi LineNr          ctermfg=227     ctermbg=none    cterm=none
+hi LineNr          ctermfg=215     ctermbg=none    cterm=none
 hi CursorLineNR    ctermfg=none    ctermbg=none    cterm=none
 
 " -----------------
@@ -52,14 +54,14 @@ hi TabLineSel      ctermfg=none    ctermbg=none    cterm=none
 " - File Navigation / Searching -
 " -------------------------------
 hi Directory       ctermfg=none    ctermbg=none    cterm=none
-hi Search          ctermfg=none    ctermbg=none    cterm=none
+hi Search          ctermfg=16      ctermbg=215     cterm=none
 hi IncSearch       ctermfg=none    ctermbg=none    cterm=none
 
 " -----------------
 " - Prompt/Status -
 " -----------------
-hi StatusLine      ctermfg=none    ctermbg=none    cterm=none
-hi StatusLineNC    ctermfg=none    ctermbg=none    cterm=none
+hi StatusLine      ctermfg=16      ctermbg=231     cterm=none
+hi StatusLineNC    ctermfg=16      ctermbg=242    cterm=none
 hi WildMenu        ctermfg=none    ctermbg=none    cterm=none
 hi Question        ctermfg=none    ctermbg=none    cterm=none
 hi Title           ctermfg=none    ctermbg=none    cterm=none
@@ -70,7 +72,7 @@ hi MoreMsg         ctermfg=none    ctermbg=none    cterm=none
 " - Visual aid -
 " --------------
 hi MatchParen      ctermfg=none    ctermbg=none    cterm=none
-hi Visual          ctermfg=none    ctermbg=none    cterm=none
+hi Visual          ctermbg=16      term=reverse    cterm=reverse
 hi VisualNOS       ctermfg=none    ctermbg=none    cterm=none
 hi NonText         ctermfg=none    ctermbg=none    cterm=none
 
@@ -94,7 +96,7 @@ hi Boolean         ctermfg=none    ctermbg=none    cterm=none
 hi Float           ctermfg=none    ctermbg=none    cterm=none
 
 hi Identifier      ctermfg=none    ctermbg=none    cterm=none
-hi Function        ctermfg=87      ctermbg=none    cterm=none
+hi Function        ctermfg=51      ctermbg=none    cterm=none
 
 " --------------------------------
 " Language constructs
@@ -111,7 +113,7 @@ hi Comment         ctermfg=39      ctermbg=none    cterm=none
 hi Special         ctermfg=215     ctermbg=none    cterm=bold
 hi SpecialChar     ctermfg=none    ctermbg=none    cterm=none
 hi Tag             ctermfg=none    ctermbg=none    cterm=none
-hi Delimiter       ctermfg=none    ctermbg=none    cterm=none
+hi Delimiter       ctermfg=213     ctermbg=none    cterm=none
 hi SpecialComment  ctermfg=39      ctermbg=none    cterm=none
 hi Debug           ctermfg=none    ctermbg=none    cterm=none
 
@@ -156,3 +158,8 @@ hi SpellRare       ctermfg=none    ctermbg=none    cterm=none
 "--------------------------------------------------------------------
 " Specific settings                                                 |
 "--------------------------------------------------------------------
+hi texStatement    ctermfg=51      ctermbg=none    cterm=none
+hi texSection      ctermfg=227     ctermbg=none    cterm=none
+hi texBeginEnd     ctermfg=213     ctermbg=none    cterm=none
+hi texGreek        ctermfg=227     ctermbg=none    cterm=none
+hi texMathZoneX    ctermfg=213     ctermbg=none    cterm=none

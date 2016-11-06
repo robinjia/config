@@ -20,6 +20,7 @@ filetype plugin on
 filetype indent plugin on  "Automatic indentation based on .vim/indent
 set noesckeys  "Fixes pause after ESC+O
 
+" Print syntax category of character under cursor
 map Q :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
 \ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
 \ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
