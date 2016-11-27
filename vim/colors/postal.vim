@@ -27,7 +27,7 @@ let g:colors_name="postal"
 " --------------------------------
 " Editor settings
 " --------------------------------
-hi Normal          ctermfg=255     ctermbg=16      cterm=none
+hi Normal          ctermfg=231     ctermbg=16      cterm=none
 hi Cursor          ctermfg=none    ctermbg=none    cterm=none
 hi CursorLine      ctermfg=none    ctermbg=none    cterm=none
 hi LineNr          ctermfg=215     ctermbg=none    cterm=none
@@ -61,7 +61,7 @@ hi IncSearch       ctermfg=none    ctermbg=none    cterm=none
 " - Prompt/Status -
 " -----------------
 hi StatusLine      ctermfg=16      ctermbg=231     cterm=none
-hi StatusLineNC    ctermfg=16      ctermbg=242    cterm=none
+hi StatusLineNC    ctermfg=16      ctermbg=248    cterm=none
 hi WildMenu        ctermfg=none    ctermbg=none    cterm=none
 hi Question        ctermfg=none    ctermbg=none    cterm=none
 hi Title           ctermfg=none    ctermbg=none    cterm=none
@@ -71,7 +71,7 @@ hi MoreMsg         ctermfg=none    ctermbg=none    cterm=none
 " --------------
 " - Visual aid -
 " --------------
-hi MatchParen      ctermfg=none    ctermbg=none    cterm=none
+hi MatchParen      ctermfg=none    ctermbg=35      cterm=none
 hi Visual          ctermbg=16      term=reverse    cterm=reverse
 hi VisualNOS       ctermfg=none    ctermbg=none    cterm=none
 hi NonText         ctermfg=none    ctermbg=none    cterm=none
