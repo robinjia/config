@@ -61,7 +61,7 @@ hi IncSearch       ctermfg=none    ctermbg=none    cterm=none
 " - Prompt/Status -
 " -----------------
 hi StatusLine      ctermfg=16      ctermbg=231     cterm=none
-hi StatusLineNC    ctermfg=16      ctermbg=248    cterm=none
+hi StatusLineNC    ctermfg=16      ctermbg=247    cterm=none
 hi WildMenu        ctermfg=none    ctermbg=none    cterm=none
 hi Question        ctermfg=none    ctermbg=none    cterm=none
 hi Title           ctermfg=none    ctermbg=none    cterm=none

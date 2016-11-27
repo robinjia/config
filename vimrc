@@ -11,6 +11,8 @@ set lbr  "Only break lines on whitespace
 "Searching
 set incsearch  "Do incremental searches
 set hls  "Highlight search on
+nnoremap <CR> :noh<CR><CR>
+    "unset the last search pattern register by hitting return
 
 "Other
 set number  "Line numbers on

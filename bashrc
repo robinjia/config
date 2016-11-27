@@ -46,6 +46,9 @@ function clw () {
 # Theano
 export OMP_NUM_THREADS=2
 
+# xterm-256 colors
+export TERM=xterm-256color
+
 # Source local bashrc changes
 if [ -f ~/config/bashrc.local ]
 then
