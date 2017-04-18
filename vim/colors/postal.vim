@@ -155,11 +155,18 @@ hi SpellCap        ctermfg=none    ctermbg=none    cterm=none
 hi SpellLocal      ctermfg=none    ctermbg=none    cterm=none
 hi SpellRare       ctermfg=none    ctermbg=none    cterm=none
 
-"--------------------------------------------------------------------
+"====================================================================
 " Specific settings                                                 |
+"====================================================================
+"--------------------------------------------------------------------
+" LaTeX
 "--------------------------------------------------------------------
 hi texStatement    ctermfg=51      ctermbg=none    cterm=none
 hi texSection      ctermfg=227     ctermbg=none    cterm=none
 hi texBeginEnd     ctermfg=213     ctermbg=none    cterm=none
 hi texGreek        ctermfg=227     ctermbg=none    cterm=none
 hi texMathZoneX    ctermfg=213     ctermbg=none    cterm=none
+"--------------------------------------------------------------------
+" Markdown
+"--------------------------------------------------------------------
+hi markdownLineBreak ctermfg=none  ctermbg=213     cterm=none
