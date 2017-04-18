@@ -34,6 +34,9 @@ set ruler
 "Python skeleton
 au BufNewFile *.py 0r ~/.vim/skeleton.py
 
+"Bash skeleton
+au BufNewFile *.sh 0r ~/.vim/skeleton.sh
+
 "Flex coloring
 au BufEnter *.flex set syntax=c
 

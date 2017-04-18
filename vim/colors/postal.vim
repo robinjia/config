@@ -76,7 +76,8 @@ hi Visual          ctermbg=16      term=reverse    cterm=reverse
 hi VisualNOS       ctermfg=none    ctermbg=none    cterm=none
 hi NonText         ctermfg=none    ctermbg=none    cterm=none
 
-hi Todo            ctermfg=16      ctermbg=213    cterm=none
+hi Todo            ctermfg=16      ctermbg=203     cterm=none
+"hi Todo            ctermfg=16      ctermbg=213    cterm=none
 hi Underlined      ctermfg=none    ctermbg=none    cterm=none
 hi Error           ctermfg=none    ctermbg=none    cterm=none
 hi ErrorMsg        ctermfg=none    ctermbg=none    cterm=none
