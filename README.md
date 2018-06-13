@@ -19,7 +19,7 @@ Since /home/$USER/.bashrc may come with some nice defaults, the recommended
 approach is to source config/bashrc in .bashrc, e.g.
 
 ```
-echo "source /home/$USER/config/bashrc" >> ~/.bashrc
+echo "source $HOME/config/bashrc" >> ~/.bashrc
 ```
 
 Additionally, for local machine-specific configurations to the .bashrc, you can
