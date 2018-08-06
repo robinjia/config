@@ -71,7 +71,7 @@ hi MoreMsg         ctermfg=none    ctermbg=none    cterm=none
 " --------------
 " - Visual aid -
 " --------------
-hi MatchParen      ctermfg=none    ctermbg=35      cterm=none
+"hi MatchParen      ctermfg=none    ctermbg=35      cterm=none
 hi Visual          ctermbg=16      term=reverse    cterm=reverse
 hi VisualNOS       ctermfg=none    ctermbg=none    cterm=none
 hi NonText         ctermfg=none    ctermbg=none    cterm=none

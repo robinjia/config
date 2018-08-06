@@ -16,7 +16,7 @@ PS1="\u@\h:\w\$(parse_git_branch)\$ "
 export MATLABPATH=/home/robinjia/config/matlab:$MATLABPATH
 
 # Check if a local/bin/ directory exists in home directory, add to $PATH.
-if [ -d ~/local/bin ]
+if [ -d ~/bin ]
 then
   PATH=~/bin:$PATH
 fi
