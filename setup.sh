@@ -7,4 +7,5 @@ cd ..
 ln -s config/vimrc .vimrc
 ln -s config/vim .vim
 ln -s config/inputrc .inputrc
+ln -s config/tmux.conf .tmux.conf
 echo "source $HOME/config/bashrc" >> ~/.bashrc
