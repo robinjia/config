@@ -3,6 +3,10 @@ set tabstop=2  "Render tabs as 2 spaces
 set shiftwidth=2  "Reindent operations use 2 spaces
 set expandtab  "Expand tabs to spaces
 set softtabstop=2  "Expand tabs to 2 spaces
+nnoremap t4 :set ts=4 sw=4 sts=4<CR>
+    "Use 4 space tabs
+nnoremap t2 :set ts=2 sw=2 sts=2<CR>
+    "Use 2 space tabs
 
 "Line breaks
 "set textwidth=80  "Automatically break long lines
