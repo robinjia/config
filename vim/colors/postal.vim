@@ -93,7 +93,7 @@ hi String          ctermfg=204     ctermbg=none    cterm=none
 hi StringDelimiter ctermfg=none    ctermbg=none    cterm=none
 hi Character       ctermfg=none    ctermbg=none    cterm=none
 hi Number          ctermfg=204     ctermbg=none    cterm=none
-hi Boolean         ctermfg=none    ctermbg=none    cterm=none
+hi Boolean         ctermfg=204     ctermbg=none    cterm=none
 hi Float           ctermfg=none    ctermbg=none    cterm=none
 
 hi Identifier      ctermfg=none    ctermbg=none    cterm=none

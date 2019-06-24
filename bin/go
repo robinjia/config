@@ -1,0 +1,9 @@
+#!/bin/bash
+# Start an interactive nlprun session
+name=$(hostname)
+if [ ${name} == "sc.stanford.edu" ]
+then
+  nlprun -a py368-robinjia -r 40G $@
+else
+  ssh -t sc.stanford.edu "/u/nlp/bin/nlprun -a py368-robinjia -r 40G $@"
+fi
