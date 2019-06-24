@@ -37,6 +37,9 @@ au BufNewFile *.py 0r ~/.vim/skeleton.py
 "Bash skeleton
 au BufNewFile *.sh 0r ~/.vim/skeleton.sh
 
+".bib skeleton
+au BufNewFile *.bib 0r ~/.vim/skeleton.bib
+
 "Flex coloring
 au BufEnter *.flex set syntax=c
 
