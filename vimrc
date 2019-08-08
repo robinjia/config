@@ -49,7 +49,10 @@ au BufEnter *.flex set syntax=c
 
 "Tex spelling
 au BufEnter *.tex set syntax=tex
-"     \ set spell spelllang=en_us 
+"      \ set noautoindent |
+"      \ filetype plugin off |
+"      \ filetype indent plugin off |
+"      \ set spell spelllang=en_us 
 
 "Markdown
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
