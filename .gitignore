@@ -13,6 +13,7 @@ vim/plugin/screen.vim
 # Install julia vim files via git
 julia-vim/
 vim/autoload/generate_latex_symbols_table.jl
+vim/autoload/julia
 vim/autoload/julia_blocks.vim
 vim/autoload/julia_latex_symbols.vim
 vim/autoload/julia.vim
@@ -23,8 +24,10 @@ vim/doc/julia-vim-L2U.txt
 vim/doc/julia-vim.txt
 vim/ftdetect/julia.vim
 vim/ftplugin/julia.vim
+vim/ftplugin/juliadoc.vim
 vim/indent/julia.vim
 vim/syntax/julia.vim
+vim/syntax/juliadoc.vim
 
 # Swap files
 *.swp
