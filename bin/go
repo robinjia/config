@@ -2,7 +2,7 @@
 # Start an interactive nlprun session
 name=$(hostname)
 #FLAGS='-a py368-robinjia -r 40G -m jagupard16,jagupard17,jagupard18,jagupard19,jagupard20,jagupard21,jagupard22,jagupard23,jagupard24,jagupard25,jagupard26,jagupard27'
-FLAGS='-a py368-robinjia -r 40G -x jagupard4,jagupard5,jagupard6,jagupard7,jagupard8,jagupard9,jagupard10,jagupard11,jagupard12,jagupard13,jagupard14,jagupard15'
+FLAGS='-a py368-robinjia -r 40G -x jagupard4,jagupard5,jagupard6,jagupard7,jagupard8,jagupard9,jagupard10,jagupard11,jagupard12,jagupard13,jagupard14,jagupard15,jagupard17'
 if [ ${name} == "sc.stanford.edu" ]
 then
   nlprun $FLAGS $@
