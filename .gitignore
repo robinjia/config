@@ -29,5 +29,8 @@ vim/indent/julia.vim
 vim/syntax/julia.vim
 vim/syntax/juliadoc.vim
 
+# wsl-open
+bin/wsl-open
+
 # Swap files
 *.swp

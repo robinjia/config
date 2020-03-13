@@ -49,6 +49,9 @@ export OMP_NUM_THREADS=2
 # xterm-256 colors
 export TERM=xterm-256color
 
+# Slurm
+alias sme='squeue -u robinjia'
+
 # Source local bashrc changes
 if [ -f ~/config/bashrc.local ]
 then

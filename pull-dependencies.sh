@@ -1,14 +1,9 @@
 #!/bin/bash
 
-# Set up julia vim
-if [ ! -d julia-vim ]
+# Get wsl-open
+if [ ! -f bin/wsl-open ]
 then
-  git clone git://github.com/JuliaLang/julia-vim.git
+  curl -o bin/wsl-open https://raw.githubusercontent.com/4U6U57/wsl-open/master/wsl-open.sh
+  chmod +x bin/wsl-open
 fi
-for dir in autoload doc ftdetect ftplugin indent syntax
-do
-  mkdir -p vim/${dir}
-  cd vim/${dir}
-  ln -s ../../julia-vim/${dir}/* .
-  cd ../..
-done
+
