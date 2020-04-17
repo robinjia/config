@@ -52,6 +52,28 @@ export TERM=xterm-256color
 # Slurm
 alias sme='squeue -u robinjia'
 
+# Dumb nvm stuff (see https://github.com/nvm-sh/nvm/issues/1978)
+export NVM_DIR="$HOME/.nvm"
+function _install_nvm() {
+  unset -f nvm npm node
+  # Set up "nvm" could use "--no-use" to defer setup, but we are here to use it
+  . "$NVM_DIR/nvm.sh" # This sets up nvm
+  . "$NVM_DIR/bash_completion"  # nvm bash_completion
+  "$@"
+}
+
+function nvm() {
+    _install_nvm nvm "$@"
+}
+
+function npm() {
+    _install_nvm npm "$@"
+}
+
+function node() {
+    _install_nvm node "$@"
+}
+
 # Source local bashrc changes
 if [ -f ~/config/bashrc.local ]
 then
