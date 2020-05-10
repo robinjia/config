@@ -34,6 +34,7 @@ For windows you should create symlinks using `mklink`:
 ```
 mklink _vimrc config\vimrc
 mklink /D vimfiles config\vim
+mklink _gvimrc config\gvimrc
 ```
 
 # Other configurations
