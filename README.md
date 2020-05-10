@@ -29,6 +29,13 @@ config/bashrc when present.
 ## gtk.css
 gtk.css should be symlinked in ~/.config/gtk-3.0/gtk.css
 
+# Windows
+For windows you should create symlinks using `mklink`:
+```
+mklink _vimrc config\vimrc
+mklink /D vimfiles config\vim
+```
+
 # Other configurations
 
 ## Screen plugin in vim
