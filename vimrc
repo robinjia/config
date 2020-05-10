@@ -8,6 +8,7 @@ nnoremap t4 :set ts=4 sw=4 sts=4<CR>
 nnoremap t2 :set ts=2 sw=2 sts=2<CR>
     "Use 2 space tabs
 set omnifunc=syntaxcomplete#Complete
+set shellslash  "Make Windows use forward slashes
 
 "Line breaks
 "set textwidth=80  "Automatically break long lines
@@ -27,7 +28,8 @@ filetype plugin on
 filetype indent plugin on  "Automatic indentation based on .vim/indent
 set noesckeys  "Fixes pause after ESC+O
 set visualbell  "Disable audio bell
-set t_vb=  " Deactivate flashing
+set t_vb=  "Deactivate flashing
+set nobackup  "Delete backup files
 
 " Print syntax category of character under cursor
 map Q :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
@@ -56,6 +58,7 @@ au BufEnter *.tex set syntax=tex
 "      \ filetype plugin off |
 "      \ filetype indent plugin off |
 "      \ set spell spelllang=en_us 
+let g:tex_flavor='latex'
 
 "Markdown
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
