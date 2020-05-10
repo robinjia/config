@@ -27,10 +27,10 @@ let g:colors_name="postal"
 " --------------------------------
 " Editor settings
 " --------------------------------
-hi Normal          ctermfg=231     ctermbg=16      cterm=none
+hi Normal          ctermfg=231     ctermbg=16      cterm=none   guifg=#ffffff guibg=#000000
 hi Cursor          ctermfg=none    ctermbg=none    cterm=none
 hi CursorLine      ctermfg=none    ctermbg=none    cterm=none
-hi LineNr          ctermfg=215     ctermbg=none    cterm=none
+hi LineNr          ctermfg=215     ctermbg=none    cterm=none   guifg=#ffaf5f
 hi CursorLineNR    ctermfg=none    ctermbg=none    cterm=none
 
 " -----------------
@@ -54,14 +54,14 @@ hi TabLineSel      ctermfg=none    ctermbg=none    cterm=none
 " - File Navigation / Searching -
 " -------------------------------
 hi Directory       ctermfg=none    ctermbg=none    cterm=none
-hi Search          ctermfg=16      ctermbg=215     cterm=none
+hi Search          ctermfg=16      ctermbg=215     cterm=none   guifg=#000000 guibg=#ffaf5f
 hi IncSearch       ctermfg=none    ctermbg=none    cterm=none
 
 " -----------------
 " - Prompt/Status -
 " -----------------
-hi StatusLine      ctermfg=16      ctermbg=231     cterm=none
-hi StatusLineNC    ctermfg=16      ctermbg=247    cterm=none
+hi StatusLine      ctermfg=16      ctermbg=231     cterm=none   guifg=#ffffff guibg=#000000
+hi StatusLineNC    ctermfg=16      ctermbg=247     cterm=none   guifg=#9e9e9e guibg=#000000
 hi WildMenu        ctermfg=none    ctermbg=none    cterm=none
 hi Question        ctermfg=none    ctermbg=none    cterm=none
 hi Title           ctermfg=none    ctermbg=none    cterm=none
@@ -72,11 +72,11 @@ hi MoreMsg         ctermfg=none    ctermbg=none    cterm=none
 " - Visual aid -
 " --------------
 "hi MatchParen      ctermfg=none    ctermbg=35      cterm=none
-hi Visual          ctermbg=16      term=reverse    cterm=reverse
+hi Visual          ctermbg=16      term=reverse    cterm=reverse guibg=#000000 gui=reverse
 hi VisualNOS       ctermfg=none    ctermbg=none    cterm=none
 hi NonText         ctermfg=none    ctermbg=none    cterm=none
 
-hi Todo            ctermfg=16      ctermbg=203     cterm=none
+hi Todo            ctermfg=16      ctermbg=203     cterm=none   guifg=#000000 guibg=#ff5f5f
 "hi Todo            ctermfg=16      ctermbg=213    cterm=none
 hi Underlined      ctermfg=none    ctermbg=none    cterm=none
 hi Error           ctermfg=none    ctermbg=none    cterm=none
@@ -88,57 +88,57 @@ hi SpecialKey      ctermfg=none    ctermbg=none    cterm=none
 " --------------------------------
 " Variable types
 " --------------------------------
-hi Constant        ctermfg=204     ctermbg=none    cterm=none
-hi String          ctermfg=204     ctermbg=none    cterm=none
+hi Constant        ctermfg=204     ctermbg=none    cterm=none   guifg=#ff5f87
+hi String          ctermfg=204     ctermbg=none    cterm=none   guifg=#ff5f87
 hi StringDelimiter ctermfg=none    ctermbg=none    cterm=none
 hi Character       ctermfg=none    ctermbg=none    cterm=none
-hi Number          ctermfg=204     ctermbg=none    cterm=none
-hi Boolean         ctermfg=204     ctermbg=none    cterm=none
+hi Number          ctermfg=204     ctermbg=none    cterm=none   guifg=#ff5f87
+hi Boolean         ctermfg=204     ctermbg=none    cterm=none   guifg=#ff5f87
 hi Float           ctermfg=none    ctermbg=none    cterm=none
 
 hi Identifier      ctermfg=none    ctermbg=none    cterm=none
-hi Function        ctermfg=51      ctermbg=none    cterm=none
+hi Function        ctermfg=51      ctermbg=none    cterm=none   guifg=#00ffff
 
 " --------------------------------
 " Language constructs
 " --------------------------------
-hi Statement       ctermfg=227     ctermbg=none    cterm=none
-hi Conditional     ctermfg=227     ctermbg=none    cterm=none
-hi Repeat          ctermfg=227     ctermbg=none    cterm=none
+hi Statement       ctermfg=227     ctermbg=none    cterm=none   guifg=#ffff5f
+hi Conditional     ctermfg=227     ctermbg=none    cterm=none   guifg=#ffff5f
+hi Repeat          ctermfg=227     ctermbg=none    cterm=none   guifg=#ffff5f
 hi Label           ctermfg=none    ctermbg=none    cterm=none
-hi Operator        ctermfg=227    ctermbg=none    cterm=none
+hi Operator        ctermfg=227     ctermbg=none    cterm=none   guifg=#ffff5f
 hi Keyword         ctermfg=none    ctermbg=none    cterm=none
-hi Exception       ctermfg=227     ctermbg=none    cterm=none
-hi Comment         ctermfg=39      ctermbg=none    cterm=none
+hi Exception       ctermfg=227     ctermbg=none    cterm=none   guifg=#ffff5f
+hi Comment         ctermfg=39      ctermbg=none    cterm=none   guifg=#00afff
 
-hi Special         ctermfg=215     ctermbg=none    cterm=bold
+hi Special         ctermfg=215     ctermbg=none    cterm=bold   guifg=#ffaf5f
 hi SpecialChar     ctermfg=none    ctermbg=none    cterm=none
 hi Tag             ctermfg=none    ctermbg=none    cterm=none
-hi Delimiter       ctermfg=213     ctermbg=none    cterm=none
-hi SpecialComment  ctermfg=39      ctermbg=none    cterm=none
+hi Delimiter       ctermfg=213     ctermbg=none    cterm=none   guifg=#ff87ff
+hi SpecialComment  ctermfg=39      ctermbg=none    cterm=none   guifg=#00afff
 hi Debug           ctermfg=none    ctermbg=none    cterm=none
 
 " ----------
 " - C like -
 " ----------
-hi PreProc         ctermfg=213     ctermbg=none    cterm=none
-hi Include         ctermfg=213     ctermbg=none    cterm=none
-hi Define          ctermfg=213     ctermbg=none    cterm=none
-hi Macro           ctermfg=213     ctermbg=none    cterm=none
-hi PreCondit       ctermfg=213     ctermbg=none    cterm=none
+hi PreProc         ctermfg=213     ctermbg=none    cterm=none   guifg=#ff87ff
+hi Include         ctermfg=213     ctermbg=none    cterm=none   guifg=#ff87ff
+hi Define          ctermfg=213     ctermbg=none    cterm=none   guifg=#ff87ff
+hi Macro           ctermfg=213     ctermbg=none    cterm=none   guifg=#ff87ff
+hi PreCondit       ctermfg=213     ctermbg=none    cterm=none   guifg=#ff87ff
 
-hi Type            ctermfg=46      ctermbg=none    cterm=none
-hi StorageClass    ctermfg=46      ctermbg=none    cterm=none
-hi Structure       ctermfg=46      ctermbg=none    cterm=none
-hi Typedef         ctermfg=46      ctermbg=none    cterm=none
+hi Type            ctermfg=46      ctermbg=none    cterm=none   guifg=#00ff00
+hi StorageClass    ctermfg=46      ctermbg=none    cterm=none   guifg=#00ff00
+hi Structure       ctermfg=46      ctermbg=none    cterm=none   guifg=#00ff00
+hi Typedef         ctermfg=46      ctermbg=none    cterm=none   guifg=#00ff00
 
 " --------------------------------
 " Diff
 " --------------------------------
-hi DiffAdd         ctermfg=16      ctermbg=120     cterm=none
-hi DiffChange      ctermfg=16      ctermbg=87      cterm=none
-hi DiffDelete      ctermfg=16      ctermbg=219     cterm=none
-hi DiffText        ctermfg=none    ctermbg=196     cterm=none
+hi DiffAdd         ctermfg=16      ctermbg=120     cterm=none   guifg=#000000 guibg=#87ff87
+hi DiffChange      ctermfg=16      ctermbg=87      cterm=none   guifg=#000000 guibg=#5fffff
+hi DiffDelete      ctermfg=16      ctermbg=219     cterm=none   guifg=#000000 guibg=#ffafff
+hi DiffText        ctermfg=none    ctermbg=196     cterm=none                 guibg=#ff0000
 
 " --------------------------------
 " Completion menu
@@ -151,10 +151,10 @@ hi PmenuThumb      ctermfg=none    ctermbg=none    cterm=none
 " --------------------------------
 " Spelling
 " --------------------------------
-hi SpellBad        ctermfg=none    ctermbg=203     cterm=none
-hi SpellCap        ctermfg=none    ctermbg=203     cterm=none
-hi SpellLocal      ctermfg=none    ctermbg=203     cterm=none
-hi SpellRare       ctermfg=none    ctermbg=203     cterm=none
+hi SpellBad        ctermfg=none    ctermbg=203     cterm=none                 guibg=#ff5f5f
+hi SpellCap        ctermfg=none    ctermbg=203     cterm=none                 guibg=#ff5f5f
+hi SpellLocal      ctermfg=none    ctermbg=203     cterm=none                 guibg=#ff5f5f
+hi SpellRare       ctermfg=none    ctermbg=203     cterm=none                 guibg=#ff5f5f
 
 "====================================================================
 " Specific settings                                                 |
@@ -162,12 +162,12 @@ hi SpellRare       ctermfg=none    ctermbg=203     cterm=none
 "--------------------------------------------------------------------
 " LaTeX
 "--------------------------------------------------------------------
-hi texStatement    ctermfg=51      ctermbg=none    cterm=none
-hi texSection      ctermfg=227     ctermbg=none    cterm=none
-hi texBeginEnd     ctermfg=213     ctermbg=none    cterm=none
-hi texGreek        ctermfg=227     ctermbg=none    cterm=none
-hi texMathZoneX    ctermfg=213     ctermbg=none    cterm=none
+hi texStatement    ctermfg=51      ctermbg=none    cterm=none   guifg=#00ffff
+hi texSection      ctermfg=227     ctermbg=none    cterm=none   guifg=#ffff5f
+hi texBeginEnd     ctermfg=213     ctermbg=none    cterm=none   guifg=#ff87ff
+hi texGreek        ctermfg=227     ctermbg=none    cterm=none   guifg=#ffff5f
+hi texMathZoneX    ctermfg=213     ctermbg=none    cterm=none   guifg=#ff87ff
 "--------------------------------------------------------------------
 " Markdown
 "--------------------------------------------------------------------
-hi markdownLineBreak ctermfg=none  ctermbg=213     cterm=none
+hi markdownLineBreak ctermfg=none  ctermbg=213     cterm=none   guifg=#ff87ff
