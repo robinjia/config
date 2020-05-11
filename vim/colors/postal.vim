@@ -170,4 +170,4 @@ hi texMathZoneX    ctermfg=213     ctermbg=none    cterm=none   guifg=#ff87ff
 "--------------------------------------------------------------------
 " Markdown
 "--------------------------------------------------------------------
-hi markdownLineBreak ctermfg=none  ctermbg=213     cterm=none   guifg=#ff87ff
+hi markdownLineBreak ctermfg=none  ctermbg=213     cterm=none                 guibg=#ff87ff
