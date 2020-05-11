@@ -4,6 +4,13 @@ These are configuration files that are normally hidden in the home directory.
 I've moved these to a dedicated directory so that they can be backed up and
 thrown into a repo.
 
+# Setup
+Main setup is all done by running
+```
+./setup.sh
+```
+from your home directory.
+
 # Usage
 For most files, you'll want to create a soft-link in the home directory, e.g.
 
@@ -29,8 +36,8 @@ config/bashrc when present.
 ## gtk.css
 gtk.css should be symlinked in ~/.config/gtk-3.0/gtk.css
 
-# Windows
-For windows you should create symlinks using `mklink`:
+# Setup for Windows
+To setup vim on Windows, you should create symlinks using `mklink`:
 ```
 mklink _vimrc config\vimrc
 mklink /D vimfiles config\vim
@@ -38,13 +45,6 @@ mklink _gvimrc config\gvimrc
 ```
 
 # Other configurations
-
-## Screen plugin in vim
-To install the screen plugin in vim, install from the .vba:
-```
-wget http://www.vim.org/scripts/download_script.php?src_id=16100 -O screen.vba
-vi screen.vba  # Install using :so %
-```
 
 ## KDE SDDM Background
 The login background is at

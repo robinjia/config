@@ -8,7 +8,7 @@ nnoremap t4 :set ts=4 sw=4 sts=4<CR>
 nnoremap t2 :set ts=2 sw=2 sts=2<CR>
     "Use 2 space tabs
 set omnifunc=syntaxcomplete#Complete
-set shellslash  "Make Windows use forward slashes
+set completeslash=slash  "Better slashes in Windows
 
 "Line breaks
 "set textwidth=80  "Automatically break long lines

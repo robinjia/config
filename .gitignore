@@ -1,36 +1,12 @@
 vim/.netrwhist
 bashrc.local
 
-background.jpg
-
-# Install screen via screen.vba
-vim/.VimballRecord
-vim/autoload/screen.vim
-vim/doc/screen.txt
-vim/doc/tags
-vim/plugin/screen.vim
-
-# Install julia vim files via git
-julia-vim/
-vim/autoload/generate_latex_symbols_table.jl
-vim/autoload/julia
-vim/autoload/julia_blocks.vim
-vim/autoload/julia_latex_symbols.vim
-vim/autoload/julia.vim
-vim/autoload/LaTeXtoUnicode.vim
-vim/doc/generate_latex_symbols_table.jl
-vim/doc/julia-vim-L2U-table.txt
-vim/doc/julia-vim-L2U.txt
-vim/doc/julia-vim.txt
-vim/ftdetect/julia.vim
-vim/ftplugin/julia.vim
-vim/ftplugin/juliadoc.vim
-vim/indent/julia.vim
-vim/syntax/julia.vim
-vim/syntax/juliadoc.vim
-
 # wsl-open
 bin/wsl-open
 
 # Swap files
 *.swp
+
+# vim-plug plugins
+vim/autoload/plug.vim
+vim/plugged

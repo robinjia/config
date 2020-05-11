@@ -7,3 +7,8 @@ then
   chmod +x bin/wsl-open
 fi
 
+# Get vim-plug
+if [ ! -f vim/autoload/plug.vim ]
+then
+  curl -fLo vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+fi
