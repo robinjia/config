@@ -1,16 +1,10 @@
 ################################################################################
-# Custom Additions to .bashrc
+# Custom Additions to .zshrc
 ################################################################################
-set -o vi
 export EDITOR=/usr/bin/vim
-alias ls='ls --color=auto'
+alias ls='ls -G'
 alias grep='grep --color=auto'
-
-# Display git branch in terminal
-function parse_git_branch () {
-  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
-}
-PS1="\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;31m\]\$(parse_git_branch)\[\033[00m\]\$ "
+bindkey -v  # vim mode
 
 # Add config/matlab to Matlab path, for startup.m
 #export MATLABPATH=/home/robinjia/config/matlab:$MATLABPATH
@@ -74,9 +68,9 @@ function node() {
     _install_nvm node "$@"
 }
 
-# Source local bashrc changes
-if [ -f ~/config/bashrc.local ]
+# Source local zshrc changes
+if [ -f ~/config/zshrc.local ]
 then
-  source ~/config/bashrc.local
+  source ~/config/zshrc.local
 fi
 
