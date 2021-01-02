@@ -50,7 +50,7 @@ export OMP_NUM_THREADS=2
 export TERM=xterm-256color
 
 # Slurm
-alias sme='squeue -u robinjia'
+alias sme='squeue -u robinjia -S P,i'
 
 # Dumb nvm stuff (see https://github.com/nvm-sh/nvm/issues/1978)
 export NVM_DIR="$HOME/.nvm"
