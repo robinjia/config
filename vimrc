@@ -52,6 +52,9 @@ au BufNewFile *.bib 0r ~/.vim/skeleton.bib
 "Flex coloring
 au BufEnter *.flex set syntax=c
 
+"agda coloring
+au BufEnter *.agda set syntax=haskell
+
 "Tex spelling
 au BufEnter *.tex set syntax=tex
 "      \ set noautoindent |

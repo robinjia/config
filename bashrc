@@ -52,6 +52,10 @@ export TERM=xterm-256color
 # Slurm
 alias sme='squeue -u robinjia'
 
+# Install Ruby Gems to $HOME/.gems
+export GEM_HOME="$HOME/.gems"
+export PATH="$HOME/.gems/bin:$PATH"
+
 # Dumb nvm stuff (see https://github.com/nvm-sh/nvm/issues/1978)
 export NVM_DIR="$HOME/.nvm"
 function _install_nvm() {
@@ -79,4 +83,3 @@ if [ -f ~/config/bashrc.local ]
 then
   source ~/config/bashrc.local
 fi
-
